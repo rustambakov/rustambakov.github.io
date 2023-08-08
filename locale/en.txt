@@ -3,18 +3,12 @@
 ## Action
 
 ### URL
-PopupWebFrameBehaviour_EFBFC888_D0E4_C8DF_41E4_197040FA44CF.url = https://3dtourify.com
 PopupWebFrameBehaviour_E661C7C9_D025_5851_41DF_901BECF4C58A.url = //www.youtube.com/embed/ijL1GiJixJo?v=ijL1GiJixJo
 
 ## Media
 
 ### Title
 panorama_FF576416_D07C_DFF3_41DD_035E22F37B49.label = PANO_DEMO
-
-## Right Click Menu
-
-### Text
-PlayerMenuItem_EE2AE156_D027_5873_41E1_7CAE448A0974.label = Item 1
 
 ## Tour
 
