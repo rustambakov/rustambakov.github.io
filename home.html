@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Document</title>
+    <meta
+      name="viewport"
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      data-tdv-general-scale="0.5"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container">
+      <iframe
+        class="responsive-iframe"
+        src="index.htm"
+        frameborder="0"
+        allowfullscreen
+        allow="xr-spatial-tracking"
+      >
+      </iframe>
+
+      <button id="scroll" onclick="scrollNext()">Scroll Down</button>
+
+      <div style="height: 1900px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam
+
+      </div>
+    </div>
+
+    <script>
+      function scrollNext() {
+        let active = document.querySelector("#scroll");
+        let top = active.nextElementSibling.getBoundingClientRect().top + window.scrollY;
+
+        window.scrollTo({
+          top: top,
+          left: 100,
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>
